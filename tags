@@ -1,0 +1,756 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+) editbox:SetFocus	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^		scrollframe:SetScript("OnMouseUp", function() editbox:SetFocus() end)$/;"	f
+AceAddon.embeds 	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^AceAddon.embeds = AceAddon.embeds or setmetatable({}, {__index = function(tbl, key) tbl[key] = {} return tbl[key] end }) -- contains a list of libraries embedded in an addon$/;"	f
+AceAddon:DisableAddon	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:DisableAddon(addon)$/;"	f
+AceAddon:EmbedLibraries	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:EmbedLibraries(addon, ...)$/;"	f
+AceAddon:EmbedLibrary	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:EmbedLibrary(addon, libname, silent, offset)$/;"	f
+AceAddon:EnableAddon	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:EnableAddon(addon)$/;"	f
+AceAddon:GetAddon	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:GetAddon(name, silent)$/;"	f
+AceAddon:InitializeAddon	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:InitializeAddon(addon)$/;"	f
+AceAddon:IterateAddonStatus	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:IterateAddonStatus() return pairs(self.statuses) end$/;"	f
+AceAddon:IterateAddons	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:IterateAddons() return pairs(self.addons) end$/;"	f
+AceAddon:IterateEmbedsOnAddon	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:IterateEmbedsOnAddon(addon) return pairs(self.embeds[addon]) end$/;"	f
+AceAddon:IterateModulesOfAddon	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:IterateModulesOfAddon(addon) return pairs(addon.modules) end$/;"	f
+AceAddon:NewAddon	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function AceAddon:NewAddon(objectorname, ...)$/;"	f
+AceBucket:Embed	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^function AceBucket:Embed( target )$/;"	f
+AceBucket:OnEmbedDisable	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^function AceBucket:OnEmbedDisable( target )$/;"	f
+AceBucket:RegisterBucketEvent	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^function AceBucket:RegisterBucketEvent(event, interval, callback)$/;"	f
+AceBucket:RegisterBucketMessage	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^function AceBucket:RegisterBucketMessage(message, interval, callback)$/;"	f
+AceBucket:UnregisterAllBuckets	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^function AceBucket:UnregisterAllBuckets()$/;"	f
+AceBucket:UnregisterBucket	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^function AceBucket:UnregisterBucket(handle)$/;"	f
+AceComm.callbacks:OnUnused	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^function AceComm.callbacks:OnUnused(target, prefix)$/;"	f
+AceComm.callbacks:OnUsed	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^function AceComm.callbacks:OnUsed(target, prefix)$/;"	f
+AceComm:Embed	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^function AceComm:Embed(target)$/;"	f
+AceComm:OnEmbedDisable	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^function AceComm:OnEmbedDisable(target)$/;"	f
+AceComm:OnReceiveMultipartFirst	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^	function AceComm:OnReceiveMultipartFirst(prefix, message, distribution, sender)$/;"	f
+AceComm:OnReceiveMultipartLast	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^	function AceComm:OnReceiveMultipartLast(prefix, message, distribution, sender)$/;"	f
+AceComm:OnReceiveMultipartNext	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^	function AceComm:OnReceiveMultipartNext(prefix, message, distribution, sender)$/;"	f
+AceComm:RegisterComm	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^function AceComm:RegisterComm(prefix, method)$/;"	f
+AceComm:SendCommMessage	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^function AceComm:SendCommMessage(prefix, text, distribution, target, prio)$/;"	f
+AceConfig:RegisterOptionsTable	.\Libs\AceConfig-3.0\AceConfig-3.0.lua	/^function AceConfig:RegisterOptionsTable(appName, options, slashcmd)$/;"	f
+AceConfigCmd:CreateChatCommand	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^function AceConfigCmd:CreateChatCommand(slashcmd, appName)$/;"	f
+AceConfigCmd:GetChatCommandOptions	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^function AceConfigCmd:GetChatCommandOptions(slashcmd)$/;"	f
+AceConfigCmd:HandleCommand	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^function AceConfigCmd:HandleCommand(slashcmd, appName, input)$/;"	f
+AceConfigDialog:AddToBlizOptions	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:AddToBlizOptions(appName, name, parent, ...)$/;"	f
+AceConfigDialog:Close	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:Close(appName)$/;"	f
+AceConfigDialog:CloseAll	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:CloseAll()$/;"	f
+AceConfigDialog:ConfigTableChanged	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:ConfigTableChanged(event, appName)$/;"	f
+AceConfigDialog:FeedGroup	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:FeedGroup(appName,options,container,rootframe,path, isRoot)$/;"	f
+AceConfigDialog:GetStatusTable	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:GetStatusTable(appName, path)$/;"	f
+AceConfigDialog:Open	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:Open(appName, container, ...)$/;"	f
+AceConfigDialog:SelectGroup	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:SelectGroup(appName, ...)$/;"	f
+AceConfigDialog:SetDefaultSize	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^function AceConfigDialog:SetDefaultSize(appName, width, height)$/;"	f
+AceConfigRegistry.tables[appName] 	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^		AceConfigRegistry.tables[appName] = function(uiType, uiName, errlvl)$/;"	f
+AceConfigRegistry:GetOptionsTable	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^function AceConfigRegistry:GetOptionsTable(appName, uiType, uiName)$/;"	f
+AceConfigRegistry:IterateOptionsTables	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^function AceConfigRegistry:IterateOptionsTables()$/;"	f
+AceConfigRegistry:NotifyChange	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^function AceConfigRegistry:NotifyChange(appName)$/;"	f
+AceConfigRegistry:RegisterOptionsTable	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^function AceConfigRegistry:RegisterOptionsTable(appName, options)$/;"	f
+AceConfigRegistry:ValidateOptionsTable	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^function AceConfigRegistry:ValidateOptionsTable(options,name,errlvl)$/;"	f
+AceConsole:Embed	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:Embed( target )$/;"	f
+AceConsole:GetArgs	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:GetArgs(str, numargs, startpos)$/;"	f
+AceConsole:IterateChatCommands	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:IterateChatCommands() return pairs(AceConsole.commands) end$/;"	f
+AceConsole:OnEmbedDisable	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:OnEmbedDisable( target )$/;"	f
+AceConsole:OnEmbedEnable	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:OnEmbedEnable( target )$/;"	f
+AceConsole:Print	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:Print(...)$/;"	f
+AceConsole:RegisterChatCommand	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:RegisterChatCommand( command, func, persist )$/;"	f
+AceConsole:UnregisterChatCommand	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^function AceConsole:UnregisterChatCommand( command )$/;"	f
+AceDB:New	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function AceDB:New(tbl, defaults, defaultProfile)$/;"	f
+AceDBOptions:GetOptionsTable	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function AceDBOptions:GetOptionsTable(db, noDefaultProfiles)$/;"	f
+AceEvent.events:OnUnused	.\Libs\AceEvent-3.0\AceEvent-3.0.lua	/^function AceEvent.events:OnUnused(target, eventname) $/;"	f
+AceEvent.events:OnUsed	.\Libs\AceEvent-3.0\AceEvent-3.0.lua	/^function AceEvent.events:OnUsed(target, eventname) $/;"	f
+AceEvent:Embed	.\Libs\AceEvent-3.0\AceEvent-3.0.lua	/^function AceEvent:Embed(target)$/;"	f
+AceEvent:OnEmbedDisable	.\Libs\AceEvent-3.0\AceEvent-3.0.lua	/^function AceEvent:OnEmbedDisable(target)$/;"	f
+AceGUI:ClearFocus	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:ClearFocus()$/;"	f
+AceGUI:Create	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:Create(type)$/;"	f
+AceGUI:GetLayout	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:GetLayout(Name)$/;"	f
+AceGUI:GetNextWidgetNum	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:GetNextWidgetNum(type)$/;"	f
+AceGUI:RegisterAsContainer	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	function AceGUI:RegisterAsContainer(widget)$/;"	f
+AceGUI:RegisterAsWidget	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	function AceGUI:RegisterAsWidget(widget)$/;"	f
+AceGUI:RegisterLayout	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:RegisterLayout(Name, LayoutFunc)$/;"	f
+AceGUI:RegisterWidgetType	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:RegisterWidgetType(Name, Constructor, Version)$/;"	f
+AceGUI:Release	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:Release(widget)$/;"	f
+AceGUI:SetFocus	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^function AceGUI:SetFocus(widget)$/;"	f
+AceHook.registry 	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^AceHook.registry = AceHook.registry or setmetatable({}, {__index = function(tbl, key) tbl[key] = {} return tbl[key] end })$/;"	f
+AceHook:Embed	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:Embed( target )$/;"	f
+AceHook:Hook	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:Hook(object, method, handler, hookSecure)$/;"	f
+AceHook:HookScript	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:HookScript(frame, script, handler)$/;"	f
+AceHook:IsHooked	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:IsHooked(obj, method)$/;"	f
+AceHook:OnEmbedDisable	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:OnEmbedDisable( target )$/;"	f
+AceHook:RawHook	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:RawHook(object, method, handler, hookSecure)$/;"	f
+AceHook:RawHookScript	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:RawHookScript(frame, script, handler)$/;"	f
+AceHook:SecureHook	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:SecureHook(object, method, handler)$/;"	f
+AceHook:SecureHookScript	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:SecureHookScript(frame, script, handler)$/;"	f
+AceHook:Unhook	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:Unhook(obj, method)$/;"	f
+AceHook:UnhookAll	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function AceHook:UnhookAll()$/;"	f
+AceLocale:GetLocale	.\Libs\AceLocale-3.0\AceLocale-3.0.lua	/^function AceLocale:GetLocale(application, silent)$/;"	f
+AceLocale:NewLocale	.\Libs\AceLocale-3.0\AceLocale-3.0.lua	/^function AceLocale:NewLocale(application, locale, isDefault, silent)$/;"	f
+AceSerializer:Deserialize	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^function AceSerializer:Deserialize(str)$/;"	f
+AceSerializer:Embed	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^function AceSerializer:Embed(target)$/;"	f
+AceSerializer:Serialize	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^function AceSerializer:Serialize(...)$/;"	f
+AceTab:IsTabCompletionRegistered	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^function AceTab:IsTabCompletionRegistered(descriptor)$/;"	f
+AceTab:OnTabPressed	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^function AceTab:OnTabPressed(this)$/;"	f
+AceTab:RegisterTabCompletion	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^function AceTab:RegisterTabCompletion(descriptor, prematches, wordlist, usagefunc, listenframes, postfunc, pmoverwrite)$/;"	f
+AceTab:UnregisterTabCompletion	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^function AceTab:UnregisterTabCompletion(descriptor)$/;"	f
+AceTimer:CancelAllTimers	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^function AceTimer:CancelAllTimers()$/;"	f
+AceTimer:CancelTimer	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^function AceTimer:CancelTimer(handle, silent)$/;"	f
+AceTimer:Embed	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^function AceTimer:Embed(target)$/;"	f
+AceTimer:OnEmbedDisable	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^function AceTimer:OnEmbedDisable( target )$/;"	f
+AceTimer:ScheduleRepeatingTimer	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^function AceTimer:ScheduleRepeatingTimer(callback, delay, arg)$/;"	f
+AceTimer:ScheduleTimer	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^function AceTimer:ScheduleTimer(callback, delay, arg)$/;"	f
+AceTimer:TimeLeft	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^function AceTimer:TimeLeft(handle)$/;"	f
+ActivateControl	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function ActivateControl(widget, event, ...)$/;"	f
+ActivateMultiControl	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function ActivateMultiControl(widget, event, ...)$/;"	f
+ActivateSlider	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function ActivateSlider(widget, event, value)$/;"	f
+AddCloseButton	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function AddCloseButton(self)$/;"	f
+AddItem	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function AddItem(self, item)$/;"	f
+AddItem	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function AddItem(self, value, text)$/;"	f
+AddListItem	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function AddListItem(self, value, text)$/;"	f
+ApplyStatus	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function ApplyStatus(self)$/;"	f
+BucketHandler	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^local function BucketHandler(self, event, arg1)$/;"	f
+BuildGroups	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function BuildGroups(group, options, path, appName, recurse)$/;"	f
+BuildLevel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function BuildLevel(self, tree, level, parent)$/;"	f
+BuildPath	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function BuildPath(path, ...)$/;"	f
+BuildSelect	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function BuildSelect(group, options, path, appName)$/;"	f
+BuildSortedOptionsTable	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function BuildSortedOptionsTable(group, keySort, opts, options, path, appName)$/;"	f
+BuildSubGroups	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function BuildSubGroups(group, tree, options, path, appName)$/;"	f
+BuildTabs	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function BuildTabs(group, options, path, appName)$/;"	f
+BuildTabs	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function BuildTabs(self)$/;"	f
+BuildTabsOnUpdate	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function BuildTabsOnUpdate(this)$/;"	f
+BuildUniqueValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function BuildUniqueValue(...)$/;"	f
+ButtonOnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function ButtonOnClick(this)$/;"	f
+ButtonOnDoubleClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function ButtonOnDoubleClick(button)$/;"	f
+Button_OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function Button_OnClick(this)$/;"	f
+Button_OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function Button_OnClick(this)$/;"	f
+Button_OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	local function Button_OnClick(this)$/;"	f
+Button_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function Button_OnEnter(this)$/;"	f
+Button_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function Button_OnEnter(this)$/;"	f
+Button_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function Button_OnLeave(this)$/;"	f
+Button_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function Button_OnLeave(this)$/;"	f
+CallOptionsFunction	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function CallOptionsFunction(funcname ,option, options, path, appName, ...)$/;"	f
+CallbackHandler:New	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^function CallbackHandler:New(target, RegisterName, UnregisterName, UnregisterAllName, OnUsed, OnUnused)$/;"	f
+ChatEdit_CustomTabPressed	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^		function ChatEdit_CustomTabPressed()$/;"	f
+ChatThrottleLib.Hook_SendAddonMessage	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib.Hook_SendAddonMessage(prefix, text, chattype, destination, ...)$/;"	f
+ChatThrottleLib.Hook_SendChatMessage	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib.Hook_SendChatMessage(text, chattype, language, destination, ...)$/;"	f
+ChatThrottleLib.OnEvent	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib.OnEvent(this,event)$/;"	f
+ChatThrottleLib.OnUpdate	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib.OnUpdate(this,delay)$/;"	f
+ChatThrottleLib:Despool	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib:Despool(Prio)$/;"	f
+ChatThrottleLib:Enqueue	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib:Enqueue(prioname, pipename, msg)$/;"	f
+ChatThrottleLib:Init	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib:Init()	$/;"	f
+ChatThrottleLib:SendAddonMessage	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib:SendAddonMessage(prio, prefix, text, chattype, target, queueName)$/;"	f
+ChatThrottleLib:SendChatMessage	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib:SendChatMessage(prio, prefix,   text, chattype, language, destination, queueName)$/;"	f
+ChatThrottleLib:UpdateAvail	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function ChatThrottleLib:UpdateAvail()$/;"	f
+CheckBox_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function CheckBox_OnEnter(this)$/;"	f
+CheckBox_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function CheckBox_OnLeave(this)$/;"	f
+CheckBox_OnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function CheckBox_OnMouseDown(this)$/;"	f
+CheckBox_OnMouseUp	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function CheckBox_OnMouseUp(this)$/;"	f
+CheckOptionDisabled	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function CheckOptionDisabled(option, options, path, appName)$/;"	f
+CheckOptionHidden	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function CheckOptionHidden(option, options, path, appName)$/;"	f
+CleanUserData	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function CleanUserData(widget, event)$/;"	f
+Clear	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Clear(self)$/;"	f
+ClearBlizPanel	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function ClearBlizPanel(widget, event)$/;"	f
+ClearFocus	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function ClearFocus(self)$/;"	f
+Close	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Close(self)$/;"	f
+CloseMenu	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function CloseMenu(self)$/;"	f
+CloseSpecialWindows 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^		CloseSpecialWindows = function()$/;"	f
+ColorCallback	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function ColorCallback(self,r,g,b,a,isAlpha)$/;"	f
+ColorPickerFrame.cancelFunc 	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^			ColorPickerFrame.cancelFunc = function()$/;"	f
+ColorPickerFrame.func 	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^			ColorPickerFrame.func = function()$/;"	f
+ColorPickerFrame.opacityFunc 	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^			ColorPickerFrame.opacityFunc = function()$/;"	f
+ColorSwatch_OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function ColorSwatch_OnClick(this)$/;"	f
+Constructor	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Heading.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InlineGroup.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-SimpleGroup.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Constructor()$/;"	f
+Constructor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function Constructor()$/;"	f
+ContentResize	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	local function ContentResize(this)$/;"	f
+Control_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function Control_OnEnter(this)$/;"	f
+Control_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Control_OnEnter(this)$/;"	f
+Control_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function Control_OnEnter(this)$/;"	f
+Control_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function Control_OnEnter(this)$/;"	f
+Control_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function Control_OnEnter(this)$/;"	f
+Control_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function Control_OnLeave(this)$/;"	f
+Control_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Control_OnLeave(this)$/;"	f
+Control_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function Control_OnLeave(this)$/;"	f
+Control_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function Control_OnLeave(this)$/;"	f
+Control_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function Control_OnLeave(this)$/;"	f
+CreateButton	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function CreateButton(self)$/;"	f
+CreateDispatcher	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateDispatcher	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateDispatcher	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateDispatcher	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateDispatcher	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateDispatcher	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function CreateDispatcher(argCount)$/;"	f
+CreateFrame	.\lkLootChatMsg.lua	/^function CreateFrame(newFrame)$/;"	f
+CreateTab	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function CreateTab(self, id)$/;"	f
+DBObjectLib:CopyProfile	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:CopyProfile(name, silent)$/;"	f
+DBObjectLib:DeleteProfile	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:DeleteProfile(name, silent)$/;"	f
+DBObjectLib:GetCurrentProfile	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:GetCurrentProfile()$/;"	f
+DBObjectLib:GetNamespace	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:GetNamespace(name, silent)$/;"	f
+DBObjectLib:GetProfiles	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:GetProfiles(tbl)$/;"	f
+DBObjectLib:RegisterDefaults	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:RegisterDefaults(defaults)$/;"	f
+DBObjectLib:RegisterNamespace	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:RegisterNamespace(name, defaults)$/;"	f
+DBObjectLib:ResetDB	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:ResetDB(defaultProfile)$/;"	f
+DBObjectLib:ResetProfile	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:ResetProfile(noChildren)$/;"	f
+DBObjectLib:SetProfile	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^function DBObjectLib:SetProfile(name)$/;"	f
+DelMsg	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^local function DelMsg(msg)$/;"	f
+DelPipe	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^local function DelPipe(pipe)$/;"	f
+DelTree	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function DelTree(tree)$/;"	f
+DeserializeNumberHelper	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^local function DeserializeNumberHelper(number)$/;"	f
+DeserializeStringHelper	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^local function DeserializeStringHelper(escape)$/;"	f
+DeserializeValue	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^local function DeserializeValue(iter,single,ctl,data)$/;"	f
+Disable	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function Disable(self)$/;"	f
+DisableModule	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function DisableModule(self, name)$/;"	f
+Dispatchers[0] 	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^Dispatchers[0] = function(func)$/;"	f
+Dispatchers[0] 	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^Dispatchers[0] = function(func)$/;"	f
+Dispatchers[0] 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^Dispatchers[0] = function(func)$/;"	f
+Dispatchers[0] 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^Dispatchers[0] = function(func)$/;"	f
+Dispatchers[0] 	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^Dispatchers[0] = function(func)$/;"	f
+Dropdown_OnHide	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Dropdown_OnHide(this)$/;"	f
+Dropdown_TogglePullout	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Dropdown_TogglePullout(this)$/;"	f
+EditBox_OnEnterPressed	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function EditBox_OnEnterPressed(this)$/;"	f
+EditBox_OnEnterPressed	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	local function EditBox_OnEnterPressed(this)$/;"	f
+EditBox_OnEnterPressed	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function EditBox_OnEnterPressed(this)$/;"	f
+EditBox_OnEscapePressed	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function EditBox_OnEscapePressed(this)$/;"	f
+EditBox_OnEscapePressed	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function EditBox_OnEscapePressed(this)$/;"	f
+EditBox_OnReceiveDrag	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function EditBox_OnReceiveDrag(this)$/;"	f
+EditBox_OnReceiveDrag	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	local function EditBox_OnReceiveDrag(this)$/;"	f
+EditBox_OnTextChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function EditBox_OnTextChanged(this)$/;"	f
+Embed	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function Embed(target)$/;"	f
+Enable	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function Enable(self)$/;"	f
+EnableButtonTooltips	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function EnableButtonTooltips(self, enable)$/;"	f
+EnableModule	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function EnableModule(self, name)$/;"	f
+ExpandOnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function ExpandOnClick(this)$/;"	f
+FeedOptions	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function FeedOptions(appName, options,container,rootframe,path,group,inline)$/;"	f
+FeedToBlizPanel	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function FeedToBlizPanel(widget, event)$/;"	f
+FindFrame	.\lkLootChatMsg.lua	/^function FindFrame(toFrame, msg)$/;"	f
+FireBucket	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^local function FireBucket(bucket)$/;"	f
+FirstFrameUpdate	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function FirstFrameUpdate(this)$/;"	f
+FixScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function FixScroll(self)$/;"	f
+FixScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^			local function FixScroll(_, elapsed)$/;"	f
+FixScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function FixScroll(self)$/;"	f
+FixScrollOnUpdate	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function FixScrollOnUpdate(this)$/;"	f
+FixSize	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^		local function FixSize()$/;"	f
+FrameOnClose	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function FrameOnClose(widget, event)$/;"	f
+FrameOnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function FrameOnMouseDown(this)$/;"	f
+FrameResize	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	local function FrameResize(this)$/;"	f
+Frame_OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function Frame_OnClick(this, button)$/;"	f
+GetButtonParents	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function GetButtonParents(line)$/;"	f
+GetButtonUniqueValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function GetButtonUniqueValue(line)$/;"	f
+GetFuncName	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function GetFuncName(option)$/;"	f
+GetLeftBorderWidth	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function GetLeftBorderWidth(self)$/;"	f
+GetModule	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function GetModule(self, name, silent)$/;"	f
+GetMultiselect	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function GetMultiselect(self)$/;"	f
+GetName	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function GetName(self)$/;"	f
+GetOptionsMemberValue	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function GetOptionsMemberValue(membername, option, options, path, appName, ...)$/;"	f
+GetRightBorderWidth	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function GetRightBorderWidth(self)$/;"	f
+GetSubOption	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function GetSubOption(group, key)$/;"	f
+GetValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function GetValue(self)$/;"	f
+GetValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function GetValue(self)$/;"	f
+GroupExists	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function GroupExists(appName, options, path, uniquevalue)$/;"	f
+GroupSelected	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function GroupSelected(widget, event, uniquevalue)$/;"	f
+Hide	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function Hide(self)$/;"	f
+HideButton	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function HideButton(self)$/;"	f
+InjectInfo	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function InjectInfo(control, options, option, path, rootframe, appName)$/;"	f
+IsEnabled	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function IsEnabled(self) return self.enabledState end$/;"	f
+IsModule	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function IsModule(self) return false end$/;"	f
+IsModuleTrue	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function IsModuleTrue(self) return true end$/;"	f
+ItemBase.Create	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.Create(type)$/;"	f
+ItemBase.Frame_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.Frame_OnEnter(this)$/;"	f
+ItemBase.Frame_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.Frame_OnLeave(this)$/;"	f
+ItemBase.GetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.GetText(self)$/;"	f
+ItemBase.Hide	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.Hide(self)$/;"	f
+ItemBase.OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.OnAcquire(self)$/;"	f
+ItemBase.OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.OnRelease(self)$/;"	f
+ItemBase.SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.SetDisabled(self, disabled)$/;"	f
+ItemBase.SetOnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.SetOnEnter(self, func)$/;"	f
+ItemBase.SetOnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.SetOnLeave(self, func)$/;"	f
+ItemBase.SetPoint	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.SetPoint(self, ...)$/;"	f
+ItemBase.SetPullout	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.SetPullout(self, pullout)$/;"	f
+ItemBase.SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.SetText(self, text)$/;"	f
+ItemBase.Show	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^function ItemBase.Show(self)$/;"	f
+IterateEmbeds	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function IterateEmbeds(self) return pairs(AceAddon.embeds[self]) end$/;"	f
+IterateItems	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function IterateItems(self)$/;"	f
+IterateModules	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function IterateModules(self) return pairs(self.modules) end$/;"	f
+Keybinding_OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function Keybinding_OnClick(this, button)$/;"	f
+Keybinding_OnKeyDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function Keybinding_OnKeyDown(this, key)$/;"	f
+Keybinding_OnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function Keybinding_OnMouseDown(this, button)$/;"	f
+LayoutFinished	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function LayoutFinished(self, width, height)$/;"	f
+LayoutFinished	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InlineGroup.lua	/^	local function LayoutFinished(self, width, height)$/;"	f
+LayoutFinished	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function LayoutFinished(self,width,height)$/;"	f
+LayoutFinished	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-SimpleGroup.lua	/^	local function LayoutFinished(self, width, height)$/;"	f
+LayoutFinished	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function LayoutFinished(self, width, height)$/;"	f
+LayoutFinished	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function LayoutFinished(self, width, height)$/;"	f
+LibStub:GetLibrary	.\Libs\LibStub\LibStub.lua	/^	function LibStub:GetLibrary(major, silent)$/;"	f
+LibStub:IterateLibraries	.\Libs\LibStub\LibStub.lua	/^	function LibStub:IterateLibraries() return pairs(self.libs) end$/;"	f
+LibStub:NewLibrary	.\Libs\LibStub\LibStub.lua	/^	function LibStub:NewLibrary(major, minor)$/;"	f
+MoveScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function MoveScroll(self, value)$/;"	f
+MoveScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function MoveScroll(self, value)$/;"	f
+MultiControlOnClosed	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function MultiControlOnClosed(widget, event, ...)$/;"	f
+MultiLineEditBox:GetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:GetText()$/;"	f
+MultiLineEditBox:OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:OnAcquire()$/;"	f
+MultiLineEditBox:OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:OnRelease()$/;"	f
+MultiLineEditBox:SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:SetDisabled(disabled)$/;"	f
+MultiLineEditBox:SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:SetLabel(text)$/;"	f
+MultiLineEditBox:SetNumLines	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:SetNumLines(number)$/;"	f
+MultiLineEditBox:SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:SetText(text)$/;"	f
+MultiLineEditBox:ShowButton	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^	function MultiLineEditBox:ShowButton(show)$/;"	f
+MyAddon:LootMsg	.\lkLootChatMsg.lua	/^function MyAddon:LootMsg(who, item, number)$/;"	f
+NewModule	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function NewModule(self, name, prototype, ...)$/;"	f
+NewMsg	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^local function NewMsg()$/;"	f
+NewPipe	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^local function NewPipe()$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Heading.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InlineGroup.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-SimpleGroup.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function OnAcquire(self)$/;"	f
+OnAcquire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function OnAcquire(self)$/;"	f
+OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function OnClick(this, button)$/;"	f
+OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function OnClick(this, ...)$/;"	f
+OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function OnEnter(this)$/;"	f
+OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnEnter(item)$/;"	f
+OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function OnEnter(this)$/;"	f
+OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function OnEnter(this)$/;"	f
+OnEvent	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^local function OnEvent(this, event, ...)$/;"	f
+OnEvent	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^local function OnEvent(this, event)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InlineGroup.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-SimpleGroup.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHeightSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function OnHeightSet(self, height)$/;"	f
+OnHide	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function OnHide(this)$/;"	f
+OnHide	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function OnHide(this)$/;"	f
+OnItemValueChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnItemValueChanged(this, event, checked)$/;"	f
+OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function OnLeave(this)$/;"	f
+OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function OnLeave(this)$/;"	f
+OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function OnLeave(this)$/;"	f
+OnMouseWheel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnMouseWheel(this, value)$/;"	f
+OnMouseWheel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function OnMouseWheel(this,value)$/;"	f
+OnPulloutClose	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnPulloutClose(this)$/;"	f
+OnPulloutOpen	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnPulloutOpen(this)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Heading.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InlineGroup.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-SimpleGroup.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function OnRelease(self)$/;"	f
+OnRelease	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function OnRelease(self)$/;"	f
+OnScrollValueChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnScrollValueChanged(this, value)$/;"	f
+OnScrollValueChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function OnScrollValueChanged(this, value)$/;"	f
+OnScrollValueChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function OnScrollValueChanged(this, value)$/;"	f
+OnShow	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function OnShow(this)$/;"	f
+OnSizeChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function OnSizeChanged(this)$/;"	f
+OnSizeChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function OnSizeChanged(this)$/;"	f
+OnUpdate	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^local function OnUpdate()$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InlineGroup.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-SimpleGroup.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function OnWidthSet(self, width)$/;"	f
+OnWidthSet	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function OnWidthSet(self, width)$/;"	f
+Open	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function Open(self, point, relFrame, relPoint, x, y)		$/;"	f
+OptionOnMouseLeave	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function OptionOnMouseLeave(widget, event)$/;"	f
+OptionOnMouseOver	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function OptionOnMouseOver(widget, event)$/;"	f
+OptionsHandlerPrototype:CopyProfile	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function OptionsHandlerPrototype:CopyProfile(info, value)$/;"	f
+OptionsHandlerPrototype:DeleteProfile	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function OptionsHandlerPrototype:DeleteProfile(info, value)$/;"	f
+OptionsHandlerPrototype:GetCurrentProfile	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function OptionsHandlerPrototype:GetCurrentProfile()$/;"	f
+OptionsHandlerPrototype:HasNoProfiles	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function OptionsHandlerPrototype:HasNoProfiles(info)$/;"	f
+OptionsHandlerPrototype:ListProfiles	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function OptionsHandlerPrototype:ListProfiles(info)$/;"	f
+OptionsHandlerPrototype:Reset	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function OptionsHandlerPrototype:Reset()$/;"	f
+OptionsHandlerPrototype:SetProfile	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^function OptionsHandlerPrototype:SetProfile(info, value)$/;"	f
+RefreshOnUpdate	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function RefreshOnUpdate(this)$/;"	f
+RefreshTree	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function RefreshTree(self)$/;"	f
+Reg	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^local function Reg(self, callback, delay, arg, repeating)$/;"	f
+RegisterBucket	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^local function RegisterBucket(self, event, interval, callback, isMessage)$/;"	f
+ResizeUpdate	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function ResizeUpdate(this)$/;"	f
+Ring:Add	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function Ring:Add(obj)	-- Append at the "far end" of the ring (aka just before the current position)$/;"	f
+Ring:New	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function Ring:New()$/;"	f
+Ring:Remove	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^function Ring:Remove(obj)$/;"	f
+SayTimer	.\Libs\AceComm-3.0\ChatThrottleLib.lua	/^	local function SayTimer()$/;"	f
+Select	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function Select(self, uniquevalue, ...)$/;"	f
+SelectByPath	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function SelectByPath(self, ...)$/;"	f
+SelectByValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function SelectByValue(self, uniquevalue)$/;"	f
+SelectTab	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function SelectTab(self, value)$/;"	f
+SelectedGroup	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function SelectedGroup(self,event,value)$/;"	f
+SerializeStringHelper	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^local function SerializeStringHelper(ch)	-- Used by SerializeValue for strings$/;"	f
+SerializeValue	.\Libs\AceSerializer-3.0\AceSerializer-3.0.lua	/^local function SerializeValue(v, res, nres)$/;"	f
+SetColor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function SetColor(self,r,g,b,a)$/;"	f
+SetColor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetColor(self, r, g, b)$/;"	f
+SetColor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function SetColor(self, r, g, b)$/;"	f
+SetDefaultModuleLibraries	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function SetDefaultModuleLibraries(self, ...)$/;"	f
+SetDefaultModulePrototype	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function SetDefaultModulePrototype(self, prototype)$/;"	f
+SetDefaultModuleState	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function SetDefaultModuleState(self, state)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function SetDisabled(self,disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetDisabled(self,disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function SetDisabled(self, disabled)$/;"	f
+SetDropdownWidth	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function SetDropdownWidth(self, width)$/;"	f
+SetEnabledState	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^function SetEnabledState(self, state)$/;"	f
+SetFont	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetFont(self, font, height, flags)$/;"	f
+SetFont	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function SetFont(self, font, height, flags)$/;"	f
+SetFontObject	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetFontObject(self, font)$/;"	f
+SetFontObject	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function SetFontObject(self, font)$/;"	f
+SetGroup	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function SetGroup(self,group)$/;"	f
+SetGroupList	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function SetGroupList(self,list)$/;"	f
+SetHasAlpha	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function SetHasAlpha(self, HasAlpha)$/;"	f
+SetHideOnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetHideOnLeave(self, val)$/;"	f
+SetHighlight	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetHighlight(self, ...)$/;"	f
+SetHighlightTexCoord	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetHighlightTexCoord(self, ...)$/;"	f
+SetImage	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function SetImage(self, path, ...)$/;"	f
+SetImage	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetImage(self, path, ...)$/;"	f
+SetImage	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function SetImage(self, path, ...)$/;"	f
+SetImageSize	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function SetImageSize(self, width, height)$/;"	f
+SetImageSize	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetImageSize(self, width, height)$/;"	f
+SetImageSize	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function SetImageSize(self, width, height)$/;"	f
+SetIsPercent	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function SetIsPercent(self, value)$/;"	f
+SetItemDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetItemDisabled(self, item, disabled)$/;"	f
+SetItemValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetItemValue(self, item, value)$/;"	f
+SetKey	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function SetKey(self, key)$/;"	f
+SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function SetLabel(self, label)$/;"	f
+SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ColorPicker.lua	/^	local function SetLabel(self, text)$/;"	f
+SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetLabel(self, text)$/;"	f
+SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function SetLabel(self, text)$/;"	f
+SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Icon.lua	/^	local function SetLabel(self, text)$/;"	f
+SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function SetLabel(self, label)$/;"	f
+SetLabel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function SetLabel(self, text)$/;"	f
+SetList	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetList(self, list)$/;"	f
+SetMaxHeight	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetMaxHeight(self, height)$/;"	f
+SetMenu	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function SetMenu(self, menu)$/;"	f
+SetMultiselect	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetMultiselect(self, multi)$/;"	f
+SetName	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function SetName(self, name, parent)$/;"	f
+SetScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetScroll(self, value)$/;"	f
+SetScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function SetScroll(self, value)$/;"	f
+SetSelected	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function SetSelected(self, value)$/;"	f
+SetSliderValues	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function SetSliderValues(self, min, max, step)$/;"	f
+SetStatusTable	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function SetStatusTable(self, status)$/;"	f
+SetStatusTable	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function SetStatusTable(self, status)$/;"	f
+SetStatusTable	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-ScrollFrame.lua	/^	local function SetStatusTable(self, status)$/;"	f
+SetStatusTable	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function SetStatusTable(self, status)$/;"	f
+SetStatusTable	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function SetStatusTable(self, status)$/;"	f
+SetStatusText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function SetStatusText(self,text)$/;"	f
+SetTabs	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function SetTabs(self, tabs)$/;"	f
+SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Button.lua	/^	local function SetText(self, text)$/;"	f
+SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetText(self, text)$/;"	f
+SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function SetText(self, text)$/;"	f
+SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Heading.lua	/^	local function SetText(self, text)$/;"	f
+SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function SetText(self, text)$/;"	f
+SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function SetText(self, text)$/;"	f
+SetTitle	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function SetTitle(self, title)$/;"	f
+SetTitle	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDownGroup.lua	/^	local function SetTitle(self,title)$/;"	f
+SetTitle	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function SetTitle(self,title)$/;"	f
+SetTitle	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InlineGroup.lua	/^	local function SetTitle(self,title)$/;"	f
+SetTitle	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function SetTitle(self, text)$/;"	f
+SetTree	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function SetTree(self, tree, filter)$/;"	f
+SetTreeWidth	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function SetTreeWidth(self, treewidth, resizable)$/;"	f
+SetTriState	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function SetTriState(self, enabled)$/;"	f
+SetType	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function SetType(self, type)$/;"	f
+SetValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function SetValue(self,value)$/;"	f
+SetValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function SetValue(self, value)$/;"	f
+SetValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function SetValue(self, value)$/;"	f
+SetValue	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function SetValue(self, value)$/;"	f
+ShouldDisplayLevel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function ShouldDisplayLevel(tree)$/;"	f
+Show	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function Show(self)$/;"	f
+ShowButton	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-EditBox.lua	/^	local function ShowButton(self)$/;"	f
+ShowMultiText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^	local function ShowMultiText(self)$/;"	f
+ShowScroll	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function ShowScroll(self, show)$/;"	f
+SlashCmdList[name] 	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^		SlashCmdList[name] = function(input, editBox)$/;"	f
+Slider_OnMouseUp	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function Slider_OnMouseUp(this)$/;"	f
+Slider_OnMouseWheel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function Slider_OnMouseWheel(this, v)$/;"	f
+Slider_OnValueChanged	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function Slider_OnValueChanged(this)$/;"	f
+Tab_OnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Tab_OnClick(self)$/;"	f
+Tab_OnEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Tab_OnEnter(this)$/;"	f
+Tab_OnLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Tab_OnLeave(this)$/;"	f
+Tab_OnShow	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Tab_OnShow(this)$/;"	f
+Tab_SetDisabled	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Tab_SetDisabled(self, disabled)$/;"	f
+Tab_SetSelected	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Tab_SetSelected(self, selected)$/;"	f
+Tab_SetText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function Tab_SetText(self, text)$/;"	f
+ToggleChecked	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-CheckBox.lua	/^	local function ToggleChecked(self)$/;"	f
+TreeOnButtonEnter	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function TreeOnButtonEnter(widget, event, uniquevalue, button)$/;"	f
+TreeOnButtonLeave	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function TreeOnButtonLeave(widget, event, value, button)$/;"	f
+TreeOnMouseWheel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function TreeOnMouseWheel(this, delta)$/;"	f
+UpdateButton	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function UpdateButton(button, treeline, selected, canExpand, isExpanded)$/;"	f
+UpdateImageAnchor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-InteractiveLabel.lua	/^	local function UpdateImageAnchor(self)$/;"	f
+UpdateImageAnchor	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Label.lua	/^	local function UpdateImageAnchor(self)$/;"	f
+UpdateLabels	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function UpdateLabels(self)$/;"	f
+UpdateTabLook	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TabGroup.lua	/^	local function UpdateTabLook(self)$/;"	f
+UpdateText	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Slider.lua	/^	local function UpdateText(self)$/;"	f
+UpdateToggle	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^	local function UpdateToggle(self)$/;"	f
+WidgetBase.ClearAllPoints 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.ClearAllPoints = function(self)$/;"	f
+WidgetBase.Fire 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.Fire = function(self, name, ...)$/;"	f
+WidgetBase.GetNumPoints 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.GetNumPoints = function(self)$/;"	f
+WidgetBase.GetPoint 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.GetPoint = function(self, ...)$/;"	f
+WidgetBase.GetUserData 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.GetUserData = function(self, key)$/;"	f
+WidgetBase.GetUserDataTable 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.GetUserDataTable = function(self)$/;"	f
+WidgetBase.IsFullHeight 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.IsFullHeight = function(self)$/;"	f
+WidgetBase.IsFullWidth 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.IsFullWidth = function(self)$/;"	f
+WidgetBase.IsShown	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.IsShown= function(self)$/;"	f
+WidgetBase.IsVisible 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.IsVisible = function(self)$/;"	f
+WidgetBase.Release 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.Release = function(self)$/;"	f
+WidgetBase.SetCallback 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetCallback = function(self, name, func)$/;"	f
+WidgetBase.SetFullHeight 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetFullHeight = function(self, isFull)$/;"	f
+WidgetBase.SetFullWidth 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetFullWidth = function(self, isFull)$/;"	f
+WidgetBase.SetHeight 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetHeight = function(self, height)$/;"	f
+WidgetBase.SetParent 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetParent = function(self, parent)$/;"	f
+WidgetBase.SetPoint 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetPoint = function(self, ...)$/;"	f
+WidgetBase.SetRelativeWidth 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetRelativeWidth = function(self, width)$/;"	f
+WidgetBase.SetUserData 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetUserData = function(self, key, value)$/;"	f
+WidgetBase.SetWidth 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetBase.SetWidth = function(self, width)$/;"	f
+WidgetContainerBase.AddChild 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.AddChild = function(self, child, beforeWidget)$/;"	f
+WidgetContainerBase.AddChildren 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.AddChildren = function(self, ...)$/;"	f
+WidgetContainerBase.DoLayout 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.DoLayout = function(self)$/;"	f
+WidgetContainerBase.PauseLayout 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.PauseLayout = function(self)$/;"	f
+WidgetContainerBase.PerformLayout 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.PerformLayout = function(self)$/;"	f
+WidgetContainerBase.ReleaseChildren 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.ReleaseChildren = function(self)$/;"	f
+WidgetContainerBase.ResumeLayout 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.ResumeLayout = function(self)$/;"	f
+WidgetContainerBase.SetAutoAdjustHeight 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.SetAutoAdjustHeight = function(self, adjust)$/;"	f
+WidgetContainerBase.SetLayout 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	WidgetContainerBase.SetLayout = function(self, Layout)$/;"	f
+__index	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^	__index=function(self, argCount)$/;"	f
+__index 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^	__index = function(self,k) return k end$/;"	f
+__index 	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^					__index = function(t,k)$/;"	f
+__index 	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^	__index = function(t, section)$/;"	f
+__index 	.\Libs\AceLocale-3.0\AceLocale-3.0.lua	/^	__index = function(self, key) -- requesting totally unknown entries: fire off a nonbreaking error and return key$/;"	f
+__index 	.\Libs\AceLocale-3.0\AceLocale-3.0.lua	/^	__index = function(self, key) -- requesting totally unknown entries: return key$/;"	f
+__newindex 	.\Libs\AceLocale-3.0\AceLocale-3.0.lua	/^	__newindex = function(self, key, value)$/;"	f
+addLine	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function addLine(self, v, tree, level, parent)$/;"	f
+addontostring	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function addontostring( self ) return self.name end $/;"	f
+assert(type(Constructor) 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	assert(type(Constructor) == "function")$/;"	f
+assert(type(LayoutFunc) 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	assert(type(LayoutFunc) == "function")$/;"	f
+call	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^		local function call() return method(ARGS) end$/;"	f
+call	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^		local function call() return method(ARGS) end$/;"	f
+call	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^		local function call() return method(ARGS) end$/;"	f
+call	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^		local function call() return method(ARGS) end$/;"	f
+call	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^		local function call() return method(ARGS) end$/;"	f
+call	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function call() method(ARGS) end$/;"	f
+callfunction	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function callfunction(info, tab, methodtype, ...)$/;"	f
+callmethod	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function callmethod(info, inputpos, tab, methodtype, ...)$/;"	f
+cancel	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function cancel(this)$/;"	f
+closeOnClick	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function closeOnClick(this)$/;"	f
+compareOptions	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function compareOptions(a,b)$/;"	f
+confirmPopup	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function confirmPopup(appName, rootframe, basepath, info, message, func, ...)$/;"	f
+copy	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	function copy(t)$/;"	f
+copyDefaults	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local function copyDefaults(dest, src)$/;"	f
+copyTable	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local function copyTable(src, dest)$/;"	f
+createHook	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function createHook(self, handler, orig, secure, failsafe)$/;"	f
+createWordlist	.\Libs\AceTab-3.0\AceConfigTab-3.0.lua	/^local function createWordlist(t, cmdline, pos)$/;"	f
+cycleTab	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^local function cycleTab(this)$/;"	f
+defaults	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function defaults(this)$/;"	f
+del	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	function del(t)$/;"	f
+del	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	function del(obj,type)$/;"	f
+del	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	function del(t)$/;"	f
+desc 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^				desc = callfunction(info, v, 'desc')$/;"	f
+dispatch	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^		local function dispatch(func, ...)$/;"	f
+dispatch	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^		local function dispatch(func, ...)$/;"	f
+dispatch	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^		local function dispatch(func, ...)$/;"	f
+dispatch	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^		local function dispatch(func, ...)$/;"	f
+dispatch	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^		local function dispatch(func, ...)$/;"	f
+dispatch	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	local function dispatch(handlers, ...)$/;"	f
+do_final	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function do_final(info, inputpos, tab, methodtype, ...)$/;"	f
+donothing	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function donothing() end$/;"	f
+draggerDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function draggerDown(this)$/;"	f
+draggerEnter	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function draggerEnter(this)$/;"	f
+draggerLeave	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function draggerLeave(this)$/;"	f
+draggerUp	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	local function draggerUp(this)$/;"	f
+elseif lib and type(lib.Embed) 	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^	elseif lib and type(lib.Embed) == "function" then$/;"	f
+elseif type(confirm) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^		elseif type(confirm) == "function" then$/;"	f
+elseif type(func) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^				elseif type(func) == "function" then$/;"	f
+elseif type(func) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^		elseif type(func) == "function" then$/;"	f
+elseif type(func) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	elseif type(func) == "function" then$/;"	f
+elseif type(listenframes) ~	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^	elseif type(listenframes) ~= 'table' or type(listenframes[0]) == 'userdata' and type(listenframes.IsFrameType) == 'function' then  -- single frame or framename$/;"	f
+elseif type(options)	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^	elseif type(options)=="function" then$/;"	f
+elseif type(self[method]) ~	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^			elseif type(self[method]) ~= "function" then$/;"	f
+elseif type(validate) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^		elseif type(validate) == "function" then$/;"	f
+err	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function err(info,inputpos,msg )$/;"	f
+err	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local function err(msg, errlvl, ...)$/;"	f
+errorhandler	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function errorhandler(err)$/;"	f
+errorhandler	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^local function errorhandler(err)$/;"	f
+errorhandler	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function errorhandler(err)$/;"	f
+errorhandler	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^local function errorhandler(err)$/;"	f
+errorhandler	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^local function errorhandler(err)$/;"	f
+errorhandler	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local function errorhandler(err)$/;"	f
+expected got %s", usage, type	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^		error(format("%s: 'handler' - nil, string, or function expected got %s", usage, type(handler)), 3)$/;"	f
+fillMatches	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^local function fillMatches(this, desc, fallback)$/;"	f
+fixlevels	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	local function fixlevels(parent,...)$/;"	f
+fixlevels	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^local function fixlevels(parent,...)$/;"	f
+fixlevels	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^local function fixlevels(parent,...)$/;"	f
+fixstrata	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown-Items.lua	/^local function fixstrata(strata, parent, ...)$/;"	f
+fixstrata	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-DropDown.lua	/^local function fixstrata(strata, parent, ...)$/;"	f
+frameOnClose	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function frameOnClose(this)$/;"	f
+frameOnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function frameOnMouseDown(this)$/;"	f
+frameOnMouseUp	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function frameOnMouseUp(this)$/;"	f
+gcbs	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^local function gcbs(s1, s2)$/;"	f
+generateDefaultProfiles	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^local function generateDefaultProfiles(db)$/;"	f
+getChildren	.\Libs\AceTab-3.0\AceConfigTab-3.0.lua	/^local function getChildren(opt, ...)$/;"	f
+getLevel	.\Libs\AceTab-3.0\AceConfigTab-3.0.lua	/^local function getLevel(opt, ...)$/;"	f
+getOptionsHandler	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^local function getOptionsHandler(db, noDefaultProfiles)$/;"	f
+getProfileList	.\Libs\AceDBOptions-3.0\AceDBOptions-3.0.lua	/^local function getProfileList(db, common, nocurrent)$/;"	f
+getTextBeforeCursor	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^local function getTextBeforeCursor(this, start)$/;"	f
+getparam	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function getparam(info, inputpos, tab, depth, paramname, types, errormsg)$/;"	f
+handle	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function handle(info, inputpos, tab, depth, retfalse)$/;"	f
+hook	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^function hook(self, obj, method, handler, script, secure, raw, forceSecure, usage)$/;"	f
+hookFrame	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^local function hookFrame(f)$/;"	f
+if ( not allIsLiteral[membername] ) and ( type(member) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	if ( not allIsLiteral[membername] ) and ( type(member) == "function" or ((not stringIsLiteral[membername]) and type(member) == "string") ) then$/;"	f
+if postfunc and type(postfunc) ~	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^	if postfunc and type(postfunc) ~= 'function' then error("Usage: RegisterTabCompletion(descriptor, prematches, wordlist, usagefunc, listenframes, postfunc, pmoverwrite): 'postfunc' - function expected.", 3) end$/;"	f
+if self.hooks[method] and _G[method] 	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^		if self.hooks[method] and _G[method] == uid then -- unhooks functions$/;"	f
+if type(callback) 	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^	if type(callback) == "string" and type(self[callback]) ~= "function" then error("Usage: RegisterBucket(event, interval, callback): 'callback' - method not found on target object.", 3) end$/;"	f
+if type(callback) ~	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^	if type(callback) ~= "string" and type(callback) ~= "function" then error("Usage: RegisterBucket(event, interval, callback): 'callback' - string or function or nil expected.", 3) end$/;"	f
+if type(callback) ~	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^	if type(callback) ~= "string" and type(callback) ~= "function" then $/;"	f
+if type(desc) 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^			if type(desc) == "function" then$/;"	f
+if type(desc) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^					if type(desc) == "function" then$/;"	f
+if type(f) ~	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^		if type(f) ~= 'table' or type(f[0]) ~= 'userdata' or type(f.IsFrameType) ~= 'function' then$/;"	f
+if type(func) 	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^	if type(func) == "function" then$/;"	f
+if type(func) 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^		if type(func) == "function" then$/;"	f
+if type(handler) 	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^	if type(handler) == "string" and type(self[handler]) ~= "function" then$/;"	f
+if type(handler) ~	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^	if type(handler) ~= "string" and type(handler) ~= "function" then$/;"	f
+if type(info.handler[method])~	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^		if type(info.handler[method])~="function" then$/;"	f
+if type(member) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^		if type(member) == "function" then$/;"	f
+if type(method)	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^	if type(method)=="function" then$/;"	f
+if type(method) ~	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		if type(method) ~= "string" and type(method) ~= "function" then$/;"	f
+if type(name) 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^			if type(name) == "function" then$/;"	f
+if type(name) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^					if type(name) == "function" then$/;"	f
+if type(o1) 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^		if type(o1) == "function" or type(o1) == "string" then$/;"	f
+if type(o2) 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^		if type(o2) == "function" or type(o1) == "string" then$/;"	f
+if type(option.name) 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	if type(option.name) == "function" then$/;"	f
+if type(origOTP) ~	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^		if type(origOTP) ~= 'function' then$/;"	f
+if type(self[callback]) ~	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^		if type(self[callback]) ~= "function" then $/;"	f
+if type(usagefunc) 	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^				if type(usagefunc) == 'function' then$/;"	f
+if type(values) 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^		if type(values) == "function" or type(values) == "string" then$/;"	f
+if type(wordlist) 	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^					if type(wordlist) == 'function' then$/;"	f
+if type(wordlist) ~	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^	if type(wordlist) ~= 'function' and type(wordlist) ~= 'table' then error("Usage: RegisterTabCompletion(descriptor, prematches, wordlist, usagefunc, listenframes, postfunc, pmoverwrite): 'wordlist' - function or table expected.", 3) end$/;"	f
+if usagefunc and type(usagefunc) ~	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^	if usagefunc and type(usagefunc) ~= 'function' and type(usagefunc) ~= 'boolean' then error("Usage: RegisterTabCompletion(descriptor, prematches, wordlist, usagefunc, listenframes, postfunc, pmoverwrite): 'usagefunc' - function or boolean expected.", 3) end$/;"	f
+initSection	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local function initSection(db, section, svstore, key, defaults)$/;"	f
+initdb	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local function initdb(sv, defaults, defaultProfile, olddb, parent)$/;"	f
+iterateargs	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function iterateargs(tab)$/;"	f
+keybindingMsgFixWidth	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Keybinding.lua	/^	local function keybindingMsgFixWidth(this)$/;"	f
+keybindingValidateFunc	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function keybindingValidateFunc(text)$/;"	f
+local CallbackDummy 	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local CallbackDummy = { Fire = function() end }$/;"	f
+local Dispatchers 	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local Dispatchers 	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local Dispatchers 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local Dispatchers 	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local Dispatchers 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local Dispatchers = setmetatable({}, {__index=function(self, argCount)$/;"	f
+local assertfalse 	.\Libs\AceLocale-3.0\AceLocale-3.0.lua	/^local assertfalse = function() assert(false) end$/;"	f
+local funcmsg 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local funcmsg = "expected function or member name"$/;"	f
+local functypes 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local functypes = {["function"]=true, ["string"]=true}$/;"	f
+local ismethodtable	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local ismethodtable={["table"]=true,["string"]=true,["function"]=true,   _="methodname, funcref or table"}$/;"	f
+local isstringfunc	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local isstringfunc={["string"]=true,["function"]=true, _="string or funcref"}$/;"	f
+local meta 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^local meta = {__index = function(tbl, key) tbl[key] = {} return tbl[key] end}$/;"	f
+local mt 	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^				local mt = {__index = function(t,k) return k~=nil and v or nil end}$/;"	f
+local optmethod	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local optmethod={["nil"]=true,["string"]=true,["function"]=true, _="methodname or funcref"}$/;"	f
+local optmethodbool	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local optmethodbool={["nil"]=true,["string"]=true,["function"]=true,["boolean"]=true,  _="methodname, funcref or boolean"}$/;"	f
+local optmethodfalse	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local optmethodfalse={["nil"]=true,["string"]=true,["function"]=true,["boolean"]={[false]=true},  _="methodname, funcref or false"}$/;"	f
+local optmethodnumber	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local optmethodnumber={["nil"]=true,["string"]=true,["function"]=true,["number"]=true,  _="methodname, funcref or number"}$/;"	f
+local optmethodtable	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local optmethodtable={["nil"]=true,["string"]=true,["function"]=true,["table"]=true,  _="methodname, funcref or table"}$/;"	f
+local optstringfunc	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local optstringfunc={["nil"]=true,["string"]=true,["function"]=true, _="string or funcref"}$/;"	f
+local xpcall, eh 	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^		local xpcall, eh = ...	-- our arguments are received as unnamed values in "..." since we don't have a proper function declaration$/;"	f
+logoutHandler	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local function logoutHandler(frame, event)$/;"	f
+lostdatawarning	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^	local function lostdatawarning(prefix,sender,where)$/;"	f
+name 	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^				name = callfunction(info, v, 'name')$/;"	f
+new	.\Libs\AceComm-3.0\AceComm-3.0.lua	/^	local function new()$/;"	f
+new	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	function new()$/;"	f
+new	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^	function new(type,constructor,...)$/;"	f
+new	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-TreeGroup.lua	/^	function new()$/;"	f
+nils	.\Libs\AceConsole-3.0\AceConsole-3.0.lua	/^local function nils(n, ...)$/;"	f
+of "..tostring	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^			err(info, inputpos, "'"..methodtype.."': '"..method.."' is not a member function of "..tostring(info.handler))$/;"	f
+okay	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-BlizOptionsGroup.lua	/^	local function okay(this)$/;"	f
+onEvent	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function onEvent(this, event, arg1)$/;"	f
+origOTP 	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^			origOTP = function() end$/;"	f
+pickfirstset	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function pickfirstset(...)	$/;"	f
+pickfirstset	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function pickfirstset(...)$/;"	f
+print	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function print(msg)$/;"	f
+printf	.\Libs\AceTab-3.0\AceConfigTab-3.0.lua	/^local function printf(...)$/;"	f
+printf	.\Libs\AceTab-3.0\AceTab-3.0.lua	/^local function printf(...)$/;"	f
+regfunc 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) method(arg,...) end$/;"	f
+regfunc 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,...) end$/;"	f
+regfunc 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^				regfunc = function(...) self[method](self,arg,...) end$/;"	f
+registry:Fire	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	function registry:Fire(eventname, ...)$/;"	f
+removeDefaults	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local function removeDefaults(db, defaults, blocker)$/;"	f
+safecall	.\Libs\AceAddon-3.0\AceAddon-3.0.lua	/^local function safecall(func, ...)$/;"	f
+safecall	.\Libs\AceBucket-3.0\AceBucket-3.0.lua	/^local function safecall(func, ...)$/;"	f
+safecall	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^local function safecall(func, ...)$/;"	f
+safecall	.\Libs\AceGUI-3.0\AceGUI-3.0.lua	/^local function safecall(func, ...)$/;"	f
+safecall	.\Libs\AceTimer-3.0\AceTimer-3.0.lua	/^local function safecall(func, ...)$/;"	f
+showhelp	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function showhelp(info, inputpos, tab, noHead)$/;"	f
+sizerOnMouseUp	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function sizerOnMouseUp(this)$/;"	f
+sizereOnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function sizereOnMouseDown(this)$/;"	f
+sizersOnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function sizersOnMouseDown(this)$/;"	f
+sizerseOnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function sizerseOnMouseDown(this)$/;"	f
+t.OnAccept 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	t.OnAccept = function()$/;"	f
+t.OnCancel 	.\Libs\AceConfig-3.0\AceConfigDialog-3.0\AceConfigDialog-3.0.lua	/^	t.OnCancel = function()$/;"	f
+target[RegisterName] 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[RegisterName] = function(self, eventname, method, ... --[[actually just a single arg]])$/;"	f
+target[UnregisterAllName] 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^		target[UnregisterAllName] = function(...)$/;"	f
+target[UnregisterName] 	.\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua	/^	target[UnregisterName] = function(self, eventname)$/;"	f
+this) this.obj:Fire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^		editbox:SetScript("OnEnter", function(this) this.obj:Fire("OnEnter") end)$/;"	f
+this) this.obj:Fire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^		editbox:SetScript("OnLeave", function(this) this.obj:Fire("OnLeave") end)$/;"	f
+this) this.obj:Fire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^		scrollframe:SetScript("OnEnter", function(this) this.obj:Fire("OnEnter") end)$/;"	f
+this) this.obj:Fire	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-MultiLineEditBox.lua	/^		scrollframe:SetScript("OnLeave", function(this) this.obj:Fire("OnLeave") end)$/;"	f
+titleOnMouseDown	.\Libs\AceGUI-3.0\widgets\AceGUIWidget-Frame.lua	/^	local function titleOnMouseDown(this)$/;"	f
+uid 	.\Libs\AceHook-3.0\AceHook-3.0.lua	/^		uid = function(...)$/;"	f
+usage	.\Libs\AceTab-3.0\AceConfigTab-3.0.lua	/^local function usage(t, matches, _, cmdline)$/;"	f
+usererr	.\Libs\AceConfig-3.0\AceConfigCmd-3.0\AceConfigCmd-3.0.lua	/^local function usererr(info,inputpos,msg )$/;"	f
+validate	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local function validate(options,errlvl,...)$/;"	f
+validateDefaults	.\Libs\AceDB-3.0\AceDB-3.0.lua	/^local function validateDefaults(defaults, keyTbl, offset)$/;"	f
+validateGetterArgs	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local function validateGetterArgs(uiType, uiName, errlvl)$/;"	f
+validateKey	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local function validateKey(k,errlvl,...)$/;"	f
+validateVal	.\Libs\AceConfig-3.0\AceConfigRegistry-3.0\AceConfigRegistry-3.0.lua	/^local function validateVal(v, oktypes, errlvl,...)$/;"	f
