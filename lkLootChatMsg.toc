@@ -1,0 +1,15 @@
+## Interface: 30100
+## Title: LootChatMsg --- Made by Leiking
+## Notes: Loot Message Redirect to Chat Msg.
+## Author: jinleileiking@gmail.com
+## Version: 1.0
+## X-Category: Miscellaneous
+## OptionalDeps: Ace3
+
+
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\SpecialEvents-Loot-1.0\SpecialEvents-Loot-1.0.lua
+
+lkLootChatMsg.lua
